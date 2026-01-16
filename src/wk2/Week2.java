@@ -8,8 +8,32 @@ public class Week2 {
     //main+tab
     public static void main(String[] args) {
 
-        makingDecisions2();
+        //makingDecisions2();
         //System.out.println(validateWholeNumberValue("100abc"));
+        usingCalculator();
+   }
+   static void usingCalculator(){
+
+        //ask the user for a number
+       //ask the user for an operator
+       //ask the user for another number
+       //Call on Calculator class
+       //return the result of the calculation
+
+       System.out.println("Enter a number");
+       String num1 = input.nextLine();
+       System.out.println("Enter an operator");
+       String op = input.nextLine();
+       System.out.println("Enter another number");
+       String num2 = input.nextLine();
+
+       Calculator c1 = new Calculator(num1, op.charAt(0), num2);
+       System.out.println(c1.getNum1());
+       System.out.println(c1.getNum2());
+       System.out.println(c1.getOperator());
+       System.out.println(c1.getResult());
+
+       //c1.
    }
     static boolean validateWholeNumberValue(String value){
 
