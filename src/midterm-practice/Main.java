@@ -35,16 +35,41 @@ Age
 Height */
 
 
-// Question 1.1
+/* Question 1.1
+
+
+public class Main {
+    public static void main(String[] args) {     Its a string array 
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your full name: ");
+        String fullName = input.nextLine();     Its for users to input their name in the next line
+
+        System.out.println("Your full name is: " + fullName);
+    }
+}
+
+*/
+
+/* Question 1.2
 
 
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter your full name: ");
-        String fullName = input.nextLine();
+        System.out.print("Enter the first integer: ");
+        int num1 = input.nextInt();      This is to input integers in the next line
 
-        System.out.println("Your full name is: " + fullName);
+        System.out.print("Enter the second integer: ");
+        int num2 = input.nextInt();
+
+        int product = num1 * num2;
+
+        System.out.println("The product is: " + product);
     }
 }
+
+*/
+
+
