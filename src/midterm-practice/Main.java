@@ -73,3 +73,76 @@ public class Main {
 */
 
 
+/* Question 1.3
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a decimal number: ");
+        double number = input.nextDouble();      Input decimal number in the next line
+
+        double square = number * number;
+
+        System.out.println("The square is: " + square);
+    }
+}
+
+
+*/
+
+
+
+/* Question 1.4
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the first word: ");
+        String word1 = input.next();
+
+        System.out.print("Enter the second word: ");
+        String word2 = input.next();
+
+        System.out.print("Enter the third word: ");
+        String word3 = input.next();
+
+        System.out.println(word1 + ", " + word2 + ", " + word3);
+    }
+}
+
+
+*/
+
+
+/* Question 1.5
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = input.nextInt();
+
+        System.out.print("Enter your height (in cm): ");
+        double height = input.nextDouble();
+
+        System.out.println("\n--- User Information ---");
+        System.out.println("Name:   " + name);
+        System.out.println("Age:    " + age);
+        System.out.println("Height: " + height + " cm");
+    }
+}
+
+
+*/
+
+
