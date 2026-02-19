@@ -1,0 +1,20 @@
+Task:
+
+Create a Team class.
+
+Instructions:
+
+Attributes:
+    String teamName
+    int[] scores (size 5)
+Constructor initializes fields.
+Methods:
+    calculateTotalScore()
+        → Returns total score.
+    displayTeamPerformance()
+        → Displays team name and total score.
+Create a Tester class.
+In Tester:
+    Create a Team object.
+    Call calculateTotalScore() and display the result.
+    Call displayTeamPerformance().

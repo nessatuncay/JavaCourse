@@ -1,0 +1,32 @@
+Tasks
+1- Create an EventTicketingSystem
+    class TicketingSystem
+    attributes
+        name of event: String
+        single ticket cost: int|double
+        number of attendees
+        cost to host event
+        revenue generated
+    actions:
+        default constructor
+        3-arg constructor:
+            name of event
+            single ticket cost
+            cost to host event
+        buytickets(numberOfTickets)
+            increase number of attendees
+            increase revenue generated
+        refundtickets(numberOfTickets)
+            opposite of buytickets
+        code getters and setters
+
+2- Create a class named WorldStats
+    attritubtes
+        Continents: array of Strings
+        populationPerContinent: array of ints
+        numberOfContinents
+        indexTracker
+    actions
+        1-arg constructor: num continents
+        addContinent(String name, int population)
+        getContinentByName(String name) => population of continent
